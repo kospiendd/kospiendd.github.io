@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Delete your Photo Note account</title>
+  <meta
+    name="description"
+    content="Request deletion of your Photo Note cloud account and associated data."
+  >
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f5f6fa;
+      --surface: #ffffff;
+      --text: #202230;
+      --muted: #616575;
+      --accent: #fe4d68;
+      --accent-dark: #d93652;
+      --border: #e1e3ea;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(720px, calc(100% - 32px));
+      margin: 48px auto;
+    }
+
+    .card {
+      padding: clamp(24px, 5vw, 48px);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      box-shadow: 0 16px 48px rgba(31, 34, 48, 0.08);
+    }
+
+    .app-name {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 0.95rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 7vw, 3.25rem);
+      line-height: 1.12;
+    }
+
+    h2 {
+      margin: 36px 0 10px;
+      font-size: 1.25rem;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+    }
+
+    ol,
+    ul {
+      padding-left: 1.4rem;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 13px 20px;
+      border-radius: 10px;
+      background: var(--accent);
+      color: #ffffff;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .button:hover,
+    .button:focus-visible {
+      background: var(--accent-dark);
+    }
+
+    .note {
+      margin-top: 20px;
+      padding: 16px;
+      border-left: 4px solid var(--accent);
+      border-radius: 6px;
+      background: rgba(254, 77, 104, 0.08);
+    }
+
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    footer a {
+      color: var(--accent-dark);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme: dark;
+        --background: #171821;
+        --surface: #242633;
+        --text: #f6f7fb;
+        --muted: #c4c6d0;
+        --border: #3a3d4c;
+      }
+
+      .card {
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="card">
+      <p class="app-name">Photo Note · uggiggi</p>
+      <h1>Delete your account and cloud data</h1>
+      <p>
+        This page explains how to request deletion of your Photo Note cloud
+        account and the data associated with it.
+      </p>
+
+      <h2>Delete your account in the app</h2>
+      <ol>
+        <li>Open <strong>Photo Note</strong>.</li>
+        <li>Open the <strong>Cloud Backup</strong> screen.</li>
+        <li>Select <strong>Delete cloud account and data</strong>.</li>
+        <li>Review the warning and confirm deletion.</li>
+      </ol>
+
+      <h2>Request deletion without the app</h2>
+      <p>
+        If you have uninstalled Photo Note or cannot access the app, send an
+        email with the subject “Photo Note Account Deletion.” Include the
+        Google account email address that you used for Cloud Backup.
+      </p>
+      <a
+        class="button"
+        href="mailto:nugabaa876@gmail.com?subject=Photo%20Note%20Account%20Deletion&amp;body=Google%20account%20email%20used%20for%20Cloud%20Backup%3A%20%0A%0APlease%20delete%20my%20Photo%20Note%20cloud%20account%20and%20associated%20data."
+      >
+        Request deletion by email
+      </a>
+      <p>
+        Contact email:
+        <a href="mailto:nugabaa876@gmail.com">nugabaa876@gmail.com</a>
+      </p>
+
+      <h2>Data that will be deleted</h2>
+      <ul>
+        <li>Your Firebase account used by Photo Note</li>
+        <li>Cloud-backed note text and tags</li>
+        <li>Photos uploaded to Cloud Backup</li>
+        <li>Cloud Backup usage information associated with your account</li>
+      </ul>
+
+      <h2>Data not controlled by the service provider</h2>
+      <p>
+        Notes and photos stored only on your device are not accessible to the
+        service provider. Remove them in the app or through your device’s
+        standard uninstall process.
+      </p>
+      <p>
+        Google Play may retain purchase records according to Google’s legal,
+        accounting, fraud-prevention, and regulatory obligations.
+      </p>
+
+      <h2>Processing time</h2>
+      <p>
+        Verified deletion requests will normally be completed within 30 days.
+        Reasonable verification may be requested to prevent unauthorized
+        deletion of another person’s account.
+      </p>
+
+      <div class="note">
+        Deleting a Photo Note cloud account is permanent and cannot be undone.
+      </div>
+    </article>
+
+    <footer>
+      Photo Note · Package name: com.uggiggi.photonote ·
+      <a href="https://app.notion.com/p/Photo-Note-b033c90ae19e4ad6a83f321052635fde">
+        Privacy Policy
+      </a>
+    </footer>
+  </main>
+</body>
+</html>
